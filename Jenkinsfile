@@ -40,8 +40,7 @@ pipeline {
 
   }
   post {
-    always {
-      
+    always {      
     }
 
     failure {
