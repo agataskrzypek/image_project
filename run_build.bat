@@ -1,2 +1,3 @@
 echo Hello World
-python main.py
+C:\Users\user\PycharmProjects\image_project\venv\Scripts\python.exe "main.py"
+
