@@ -40,9 +40,6 @@ pipeline {
 
   }
   post {
-    always {      
-    }
-
     failure {
       mail(to: 'agataskrzypek1@gmailc.com', subject: "Failed Pipeline ${currentBuild.fullDisplayName}", body: " For details about the failure, see ${env.BUILD_URL}")
     }
