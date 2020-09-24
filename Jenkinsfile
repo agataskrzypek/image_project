@@ -41,7 +41,7 @@ pipeline {
   }
   post {
     always {
-      archiveArtifacts(artifacts: 'build/libs/**/*.jar', fingerprint: true)
+      archiveArtifacts(artifacts: 'workspace\Image_project\art.txt', fingerprint: true)
     }
 
     failure {
