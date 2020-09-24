@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        echo 'Build demo-app'
+        echo 'Build image-app'
         bat(script: 'run_build.bat', returnStdout: true)
       }
     }
