@@ -41,7 +41,7 @@ pipeline {
   }
   post {
     always {
-      archiveArtifacts(artifacts: 'art.txt', fingerprint: true)
+      
     }
 
     failure {
