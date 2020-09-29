@@ -5,6 +5,7 @@ pipeline {
       steps {
         echo 'Build image-app'
         bat(script: 'run_build.bat', returnStdout: true)
+        dockerNode(image: 'b9734fc9070e')
       }
     }
 
