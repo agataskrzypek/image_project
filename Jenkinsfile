@@ -1,8 +1,4 @@
 pipeline {
-  agent {
-    node {
-      label 'linux'
-    }
 
   }
   stages {
