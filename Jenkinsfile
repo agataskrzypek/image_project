@@ -4,7 +4,6 @@ pipeline {
     stage('Build') {
       steps {
         echo 'Build image-app'
-        dockerNode(image: 'b9734fc9070e')
         sh 'sh run_build_script.sh'
       }
     }
