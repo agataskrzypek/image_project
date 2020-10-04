@@ -1,13 +1,11 @@
 pipeline {
-
   agent any
- 
   stages {
     stage('Build') {
       steps {
         echo 'Build image-app'
-        bat(script: 'run_build_script.sh', returnStdout: true)
         dockerNode(image: 'b9734fc9070e')
+        sh 'sh run_build_script.sh'
       }
     }
 
