@@ -34,6 +34,5 @@ with open(r'C:\Users\user\Edukacja\grafiki-i-ilustracje-12156277_2218152486.jpg'
 print('ssss')
 print('sss2')
 
-print('spokooooo')
-
+print('słodko')
 pass
