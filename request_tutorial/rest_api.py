@@ -35,4 +35,5 @@ print('ssss')
 print('sss2')
 
 print('słodko')
+print('jaja')
 pass
